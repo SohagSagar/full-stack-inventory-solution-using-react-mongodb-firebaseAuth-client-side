@@ -1,0 +1,98 @@
+.footer{
+    padding-top: 80px;
+    background-image: url('../../../public/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+.footer-container{
+   display: flex;
+   align-items:flex-start;
+   justify-content:space-around;
+   
+
+}
+.inventory-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: whitesmoke;
+    
+    width: 400px;
+}
+.inventory-logo p{
+    text-align: justify;
+    
+}
+.inventory-logo h3{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+.quick-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.quick-links-li{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+.footer-contract{
+    display: flex;
+    align-items: center;
+}
+.contract-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.contract-icon{
+    color: whitesmoke;
+}
+.footer-heading{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 0.9em;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 5px;
+    border-bottom: 2px solid whitesmoke;
+}
+.footer-contract p,.inventory-logo p, ul li{
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 0.7em;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-hr{
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+.footer-social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-social-links p{
+    font-size: 0.8em;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-icon{
+    font-size: 1.1em;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: whitesmoke;
+}
