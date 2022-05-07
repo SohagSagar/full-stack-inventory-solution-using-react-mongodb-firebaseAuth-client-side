@@ -1,0 +1,120 @@
+.login-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:whitesmoke;
+   
+}
+
+.login-container {
+    width: 260px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color:#d8d8d8;
+    
+}
+
+/* heading styling */
+
+.heading-style{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #212529;
+    margin-bottom: 0px;
+}
+.heading-hr-line{
+    margin-top: 5px;
+}
+
+/* form input styling section */
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #bcc1c5 !important;
+    box-shadow: none !important;
+}
+
+.form-floating input {
+    height: 35px !important;
+    font-size: 0.7em;
+    background-color: #bebebef8;
+}
+.form-floating input:focus{
+    background-color: #d8dadd;
+}
+
+.form-floating label {
+    font-size: 0.8em;
+    margin-top: -8px;
+}
+
+
+/* button styling section  */
+
+.btn-style {
+    width: 100%;
+    margin-top: 15px;
+    height: 35px;
+    background-color: #212529 !important;
+}
+
+.btn {
+    padding: 0 !important;
+}
+.btn:focus {
+    box-shadow:none !important;
+}
+button:hover{
+    background-color: #393d41 !important;
+}
+
+/* hr line styling */
+
+.hr-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hr-line p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.hr {
+    width: 100%;
+    height: 1px !important;
+}
+
+
+/* google login styling */
+
+.google-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #212529;
+    color: whitesmoke;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.google-login:hover{
+    background-color: #393d41;
+    transition: 0.4s ;
+}
+.google-login p{
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+.login-to-register-link p{
+    font-size: 0.8em;
+    margin-top: 20px;
+    font-weight: 600;
+}

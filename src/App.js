@@ -8,6 +8,7 @@ import SignOut from './Components/SignOut/SignOut'
 import ManageInventory from './Components/ManageInventory/ManageInventory'
 import Header from './SharedComponents/Header/Header';
 import Footer from './SharedComponents/Footer/Footer'
+import Register from './Components/Register/Register';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blogs' element={<Blogs/>}></Route>
         <Route path='/sign-in' element={<SignIn/>}></Route>
         <Route path='/sign-out' element={<SignOut/>}></Route>
+        <Route path='/register' element={<Register/>}></Route>
       </Routes>
 
       <Footer/>
