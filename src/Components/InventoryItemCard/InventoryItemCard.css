@@ -1,0 +1,38 @@
+
+.inventory-card{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.inventory-card img{
+    width: 230px;
+    border-radius: 6px;
+    padding: 3px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.table{
+    margin-bottom: 10px !important;
+}
+.table th,td{
+    color: #212121;
+    text-align: left;
+    font-size: 0.7em;
+    font-family: 'Dosis', sans-serif;
+
+}
+.table td{
+    padding-left: 5px;
+}
+.table-hr-line{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card-btn-style{
+    margin-top: 0px !important;
+    height: 30px !important;
+    font-size: 0.7em !important;
+    font-weight: 600 !important;
+}

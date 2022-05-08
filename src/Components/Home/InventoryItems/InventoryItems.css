@@ -1,0 +1,17 @@
+.inventory-container{
+    background-color: whitesmoke;
+}
+.section-heading{
+    text-align: left;
+    font-size: 1.4em;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.inventory-item-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
