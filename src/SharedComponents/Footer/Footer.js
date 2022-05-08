@@ -14,19 +14,19 @@ const Footer = () => {
 
                 <div className="inventory-logo">
                     <h3>Tech Inventory Solution</h3>
-                    <p>This is kind of a marchent warehouse of verious electronic collect such as mobile, mobile accreous, laptop etc. Any marchent can store their product by aggreeing the terms and conditions.</p>
+                    <p>This is kind of a marchent warehouse of verious electronic collect such as mobile, mobile accessories, laptop etc. Any marchent can store their product by aggreeing the terms and conditions.</p>
                 </div>
 
                 <div className="quick-links">
                     <p className='footer-heading'>Quick Links</p>
                     <ul className='quick-links-li'>
-                        <li><Link style={{ textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/'}>Home</Link></li>
+                        <li><Link style={{ hover:'red', textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/'}><span >Home</span></Link></li>
 
-                        <li><Link style={{ textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/'}>Be A Partner</Link></li>
+                        <li><Link style={{ textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/'}><span >Be A Partner</span></Link></li>
 
-                        <li><Link style={{ textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/blogs'}>Blogs</Link></li>
+                        <li><Link style={{ textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/blogs'}><span >Blogs</span></Link></li>
 
-                        <li><Link style={{ textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/sign-in'}>Sign In</Link></li>
+                        <li><Link style={{ textDecoration: 'none', color: 'whitesmoke', fontWeight: '600' }} to={'/sign-in'}><span >Sign In</span></Link></li>
                     </ul>
 
                 </div>
@@ -36,7 +36,7 @@ const Footer = () => {
                         <p className='footer-heading'>Contract</p>
 
                         <div className='footer-contract'>
-                            <AiOutlineMobile className='contract-icon'/>
+                            <AiOutlineMobile className='contract-icon' />
                             <p>+88 016778366XX</p>
                         </div>
                         <div className='footer-contract'>
