@@ -1,0 +1,16 @@
+.contract-section{
+    padding-bottom: 60px;
+}
+.contract-info img{
+    width: 400px;
+}
+.form-section{
+    width: 400px;
+}
+
+.contract-info{
+   display: flex;
+}
+.contract-btn{
+    width: 200px !important;
+}
