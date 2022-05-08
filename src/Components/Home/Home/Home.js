@@ -7,9 +7,9 @@ import InventoryItems from '../InventoryItems/InventoryItems';
 const Home = () => {
     return (
         <div>
-            {/* <ReactSlider/> */}
-            {/* <InventoryItems/> */}
-            {/* <BeAPartner/> */}
+            <ReactSlider/>
+            <InventoryItems/>
+            <BeAPartner/>
             <Contract/>
 
 
