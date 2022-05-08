@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactSlider from '../../ReactSlider/ReactSlider'
+import BeAPartner from '../BeAPartner/BeAPartner';
 import InventoryItems from '../InventoryItems/InventoryItems';
 
 const Home = () => {
@@ -7,6 +8,8 @@ const Home = () => {
         <div>
             <ReactSlider/>
             <InventoryItems/>
+            <BeAPartner/>
+
         </div>
     );
 };

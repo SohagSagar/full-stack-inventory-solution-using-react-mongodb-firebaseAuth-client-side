@@ -1,0 +1,43 @@
+.partnership-container{
+    background-color: #212121;
+    padding-bottom: 60px;
+}
+.section-heading-black{
+    color: whitesmoke ;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 0 30px;
+    
+}
+.partnercard{
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #808080;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.partnercard img{
+    width: 220px;
+    height: 120px;
+    border-radius: 5px;
+}
+.partnercard p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+.partner-btn button{
+    border: 1px solid whitesmoke !important;
+    color: whitesmoke !important;
+    margin-top: 25px;
+    padding: 10px 15px !important;
+
+}
+.partner-btn{
+    display: flex;
+}
