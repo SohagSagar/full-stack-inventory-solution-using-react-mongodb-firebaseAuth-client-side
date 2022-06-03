@@ -5,6 +5,7 @@
 
 ## project name: Tech Inventory solution
 ## live : https://tech-inventory-solution.firebaseapp.com/
+## Server: https://github.com/SohagSagar/full-stack-inventory-solution-using-react-mongodb-firebaseAuth-server-side
 ## desctiption: This project is a inventory solution based application where a valid user can store thier product with different category. A user can update his/her insersed product. He is also permitted to make deletion of any product. by clicking delevery btn a user can make a product stock reduction by one. This application has also google and user/pass login system.
 
 # Feature and Functionality:
