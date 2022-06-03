@@ -11,7 +11,21 @@
 .inventory-item-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
     margin: auto;
+}
+.manage-inventory-btn-link p{
+    padding-bottom: 40px;
+    text-align: left;
+    margin-bottom: 0;
+    
+}
+
+/* media queries for mobile devices */
+
+@media screen and (max-width:668px) {
+    .inventory-item-card{
+        grid-template-columns: repeat(1,1fr);
+    }
 }

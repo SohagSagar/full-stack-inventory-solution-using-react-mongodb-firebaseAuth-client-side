@@ -1,16 +1,28 @@
 .contract-section{
     padding-bottom: 60px;
 }
-.contract-info img{
+/* .contract-info img{
     width: 400px;
-}
+} */
 .form-section{
     width: 400px;
 }
 
 .contract-info{
    display: flex;
+   padding-left: 0px !important;
 }
 .contract-btn{
     width: 200px !important;
+}
+
+
+/* media queries for mobile devices */
+
+@media screen and (max-width:668px) {
+    .form-section{
+        width: 300px;
+    }
+    
+
 }

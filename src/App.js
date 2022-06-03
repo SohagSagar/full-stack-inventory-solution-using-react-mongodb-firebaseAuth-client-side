@@ -15,6 +15,9 @@ import RequireAuth from './Utilities/RequireAuth/RequireAuth';
 import MyItems from '../src/Components/MyItems/MyItems';
 import AddItems from '../src/Components/AddItems/AddItems';
 import PageNotFound from '../src/Utilities/PageNotFound/PageNotFound';
+import UpdateInventory from './Components/UpdateInventory/UpdateInventory';
+import Contract from './Components/Home/Contract/Contract';
+
 
 function App() {
   return (
@@ -28,7 +31,9 @@ function App() {
         <Route path='/sign-in' element={<SignIn />}></Route>
         <Route path='/sign-out' element={<SignOut />}></Route>
         <Route path='/register' element={<Register />}></Route>
-        <Route path='*' element={<PageNotFound/>}></Route>
+        <Route path='/contract' element={<Contract />}></Route>
+
+        <Route path='*' element={<PageNotFound />}></Route>
 
         {/* protected routes */}
 
@@ -47,6 +52,12 @@ function App() {
         <Route path='/add-items' element={
           <RequireAuth>
             <AddItems />
+          </RequireAuth>
+        }></Route>
+
+        <Route path='/update-inventory/:id' element={
+          <RequireAuth>
+            <UpdateInventory />
           </RequireAuth>
         }></Route>
 

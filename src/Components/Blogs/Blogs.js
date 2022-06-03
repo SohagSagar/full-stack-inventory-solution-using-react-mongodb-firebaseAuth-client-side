@@ -4,7 +4,7 @@ import './Blogs.css'
 const Blogs = () => {
     return (
         <div className='container blogs mb-5'>
-
+                <h3 className='section-heading'>Blogs</h3><hr style={{ marginTop: '0' }} />
                 <div className="blog-container">
                     <p>Q<sub>1. </sub>Difference between javascript and nodejs? </p>
                     <p><b>A:</b> Javascript is a programming language which is run in the browser by using browser javascript engine. On the other hand, node js is a Javascript runtime environment for a JavaScript programming language and it run in the back-end side and javascript shows its power on the client side. </p>

@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { FloatingLabel, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import auth from '../../Utilities/firebase.init';
 import Loading from '../../Utilities/Loading/Loading';
 
 const Register = () => {
+    const navigate=useNavigate();
     const [
         createUserWithEmailAndPassword,
         user,
@@ -14,7 +15,6 @@ const Register = () => {
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
 
-    const [userName, setUserName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -24,11 +24,8 @@ const Register = () => {
         //create user using email password//
         createUserWithEmailAndPassword(email, password);
     }
+
     // get user register info form from input//
-    // const getUserName = event => {
-    //     const userName = event.target.email.value;
-    //     setUserName(userName);
-    // }
     const getEmail = event => {
         const email = event.target.value;
         setEmail(email);
@@ -45,8 +42,12 @@ const Register = () => {
             toast.success("Registration Successful !!", {
                 position: toast.POSITION.TOP_RIGHT
             });
+            
+            navigate('/')
         }
     }, [user])
+
+    
 
     useEffect(() => {
         if (error) {
@@ -58,11 +59,12 @@ const Register = () => {
                     break;
 
                 default:
-                    toast.error({ error } + '!!', {
+                toast.error( {error}  + '!!', {
                         position: toast.POSITION.TOP_RIGHT
                     });
                     break;
             }
+            
 
         }
     }, [error]);
@@ -72,7 +74,6 @@ const Register = () => {
     }
 
     return (
-
 
         <div>
             <div className='login-section'>

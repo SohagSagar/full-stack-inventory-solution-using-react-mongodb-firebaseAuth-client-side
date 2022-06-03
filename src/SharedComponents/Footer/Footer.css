@@ -8,6 +8,7 @@
 .footer-container{
    display: flex;
    align-items:flex-start;
+   flex-wrap: wrap;
    justify-content:space-around;
    
 
@@ -103,4 +104,16 @@ ul li :hover{
 }
 .social-icon:hover{
     color: #757070;
+}
+
+
+
+/* media queries for mobile devices */
+
+@media screen and (max-width:668px) {
+    .footer-social-links{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

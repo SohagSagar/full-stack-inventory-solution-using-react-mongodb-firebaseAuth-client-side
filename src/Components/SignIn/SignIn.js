@@ -38,6 +38,8 @@ const SignIn = () => {
             });
         }
     }, [googleUser, user]);
+    
+    console.log(googleError)
 
     // user login errors // 
 
@@ -179,8 +181,8 @@ const SignIn = () => {
                             <Modal.Title className='reset-password-heading'>Reset Password</Modal.Title>
                             <p className='mt-0'>Enter your Registered Email </p>
                             <input onBlur={getPasswordResetEmail} className='form-control' type="email" placeholder='Enter E-mail' required />
-                            <button
-                                className='btn btn-secondary  mt-3 mb-4' type="submit">Reset Password</button>
+                            
+                            <button className='btn btn-secondary  mt-3 mb-4' type="submit">Reset Password</button>
 
                         </div>
                     </form>
@@ -217,7 +219,7 @@ const SignIn = () => {
                     <p>Don't have an account?  <Link style={{ textDecoration: 'none', color: '#212529', fontWeight: 'bold' }} to={'/register'}>Register Now</Link>
 
                     </p>
-                    <p onClick={handleShow}>Forgot Password? <span style={{ textDecoration: 'none', color: '#212529', fontWeight: 'bold' }}>Recover Now</span> </p>
+                    <p onClick={handleShow}>Forgot Password? <span style={{ textDecoration: 'none', color: '#212529', fontWeight: 'bold' ,cursor:'pointer'}}>Recover Now</span> </p>
                 </div>
             </div>
 

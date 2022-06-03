@@ -28,6 +28,7 @@ const Header = () => {
                             }
                             
                             
+                            <CustomLink to={'/contract'}>Contract</CustomLink>
                             <CustomLink to={'/blogs'}>Blogs</CustomLink>
                             
         

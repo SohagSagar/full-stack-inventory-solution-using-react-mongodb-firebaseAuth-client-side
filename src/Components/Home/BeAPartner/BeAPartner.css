@@ -41,3 +41,17 @@
 .partner-btn{
     display: flex;
 }
+
+
+/* media queries for mobile devices */
+
+@media screen and (max-width:668px) {
+    .card-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+    }
+}

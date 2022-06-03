@@ -1,0 +1,19 @@
+.add-item-btn{
+    width: 150px !important;
+    height: 45px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.table-img td img{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+}
+.table-btn {
+    display: flex;
+    align-items: flex-start;
+}
+.table-btn button{
+    font-size: 1em;
+    padding: 2px 3px !important;
+}
